@@ -1,0 +1,16 @@
+.Footer {
+  background-color: #b7d6ff;
+}
+.Footer__border-bottom {
+  border-bottom: 1px solid #207cca;
+}
+.Footer__border-bottom span {
+  font-weight: bold;
+  color: #207cca;
+}
+.dark-color {
+  color: #222!important;
+}
+.blue-color {
+  color: #207cca!important;
+}

@@ -1,0 +1,17 @@
+.ImagesContainer .bg-gray {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.ImagesContainer__image {
+  width: 100px;
+  height: 100px;
+}
+.flexRowReverse .row {
+  flex-direction: row-reverse;
+}
+.flexRowReverse .row .bg-gray{
+  border-top-right-radius: 0;
+  border-bottom-right-radius:0;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}

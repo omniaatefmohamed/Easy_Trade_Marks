@@ -1,0 +1,30 @@
+.Slider {
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #899dde 33%,
+    #899dde 83%,
+    #ffffff 100%
+  );
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Slider__img {
+  left: 4%;
+  bottom: -64px;
+  height: 390px;
+}
+@media (max-width: 1299px) {
+  .Slider__img {
+    left: 0;
+    height: 270px;
+  }
+}
+@media (max-width: 500px) {
+  .Slider__img {
+    height: 182px;
+    width: 141px;
+    bottom: -29px;
+    left: -16px;
+  }
+}

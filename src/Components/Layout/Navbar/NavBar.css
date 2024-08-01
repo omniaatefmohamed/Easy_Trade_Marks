@@ -1,0 +1,46 @@
+.navbar.scrolled {
+  background-color: #f4f4f4;
+  transition: background-color 0.3s ease;
+}
+.dark-blue {
+  background-color: #2410d4;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+@media (max-width: 1199px) {
+  .navbar .position-xl-absolute {
+    position: absolute;
+    right: 120px;
+    top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar .position-xl-absolute {
+    position: relative;
+    justify-content: space-between;
+    right: auto;
+    top: auto;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .navbar .position-xl-absolute div:last-child {
+    text-align: right;
+    padding-right: 0%;
+  }
+  .navbar .position-xl-absolute div:first-child {
+    text-align: left;
+  }
+  .navbar .position-xl-absolute button {
+    margin-right: -18px;
+  }
+}
+@media (max-width: 390px) {
+  .navbar .position-xl-absolute button {
+   width:100%;
+   margin-left:10px!important;
+   margin-right:-10px;
+   margin-top:10px;
+  }
+}
